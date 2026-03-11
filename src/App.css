@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+}
+
+.App {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-start { background-color: #28a745; color: white; }
+.btn-stop { background-color: #dc3545; color: white; }
+.btn-save { background-color: #007bff; color: white; }
+.btn-clear { background-color: #ffc107; color: black; }
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.box {
+  background: #e9ecef;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.transcript {
+  font-size: 18px;
+  color: #333;
+  min-height: 50px;
+}
